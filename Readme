@@ -1,0 +1,18 @@
+Login application using spring mvc
+
+Database with users table
+CREATE TABLE users
+( name varchar2(50) NOT NULL,
+  password varchar2(50)
+);
+insert into users values ('admin','admin');
+
+DB query uses Uses queryForObject - It is a JDBC Statement, not a PreparedStatement
+
+Next steps
+understand spring mvc
+learn javascript,html and jsp
+add client validation for login page
+add server validation for login page
+add edit feature in employee.jsp
+add update feature in employee.jsp
